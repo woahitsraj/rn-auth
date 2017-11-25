@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "standard",
+    "standard-react"
+  ],
+  "plugins": [
+    "babel",
+    "react",
+    "promise",
+  ],
+  "env": {
+    "browser" : true
+  },
+  "rules": {
+    "key-spacing"          : 0,
+    "jsx-quotes"           : [2, "prefer-double"],
+    "object-curly-spacing" : [2, "always"],
+    "react/no-unused-prop-types": [0]
+  }
+}
